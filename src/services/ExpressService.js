@@ -112,9 +112,6 @@ export default class ExpressService {
       }
     });
   }
-  // http://localhost:5001/subscriber/verify?id=427229c8-8b6b-4f80-9d41-ffabe40ae3e9&email=wittcode@gmail.com
-
-  // http://localhost:5001/subscriber/unsubscribe?id=427229c8-8b6b-4f80-9d41-ffabe40ae3e9&email=wittcode@gmail.com
 
   start() {
     this.#initialize();
